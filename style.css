@@ -1,0 +1,21 @@
+:root {
+    font-size: 20px;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.page-content {
+    padding: 20px 100px;
+}
+
+.demo-list-control {
+    width: 300px;
+}
+
+i {
+    font-size: 1,5rem;
+}
