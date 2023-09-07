@@ -56,23 +56,23 @@
           <!-- Your content goes here -->
           <!-- Textfield with Floating Label -->
 
-          <form onsubmit="addTodo()">
+          <form id="todoForm" onsubmit="addTodo(); return false;">
             <div
               class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label"
             >
               <input class="mdl-textfield__input" type="text" id="todofield" />
-              <label class="mdl-textfield__label" for="todofield">To Do...</label>
+              <label class="mdl-textfield__label" for="todofield"
+                >To Do...</label
+              >
             </div>
-            <!-- Colored raised button -->
-            <button type="submit"
+            <button
+              type="submit"
               class="mdl-button mdl-js-button mdl-button--raised mdl-button--colored"
             >
               Save
             </button>
           </form>
-          <ul class="demo-list-control mdl-list" id="todolist">
-            
-          </ul>
+          <ul class="demo-list-control mdl-list" id="todolist"></ul>
         </div>
       </main>
     </div>
